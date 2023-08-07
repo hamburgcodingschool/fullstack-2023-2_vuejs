@@ -1,5 +1,5 @@
 # Vue.js
-## Full Stack Course - {{ Start Date }}
+## Full Stack Course - August 14, 2023  
 
 ### ✏️ Homework
 
@@ -10,21 +10,21 @@
 - [Handout](https://drive.google.com/file/d/1uQCqfwGjAaMzYyxhuRJhq6YZvAVYiZS9/view?usp=sharing)
 
 ### 📅 Dates:
-  - Mon, August 14 {{ Weekday, Month Day }}
-  - Wed, August 16 {{ Weekday, Month Day }}
-  - Fri, August 18 {{ Weekday, Month Day }}
-  - Mon, August 21 {{ Weekday, Month Day }}
-  - Wed, August 23 {{ Weekday, Month Day }}
-  - Fri, August 25 {{ Weekday, Month Day }}
-  - Mon, August 28 {{ Weekday, Month Day }}
-  - Wed, August 30 {{ Weekday, Month Day }}
+  - Mon, August 14
+  - Wed, August 16
+  - Fri, August 18 
+  - Mon, August 21 
+  - Wed, August 23 
+  - Fri, August 25 
+  - Mon, August 28
+  - Wed, August 30
 
 ### 🎯 Location:
-{{Whisky Tango Foxtrot / Die Diele}}
+Whisky Tango Foxtrot
 
 ### 🤔 Questions?
 
-Use the Slack channel #{{ slack-channel }}
+Use the Slack channel #fullstack-2023-2
 
 > To join Slack just click on this [link](https://hamburgcodingschool.slack.com/join/shared_invite/enQtMjczNDI3OTE4NzIwLTE2ZmNkNDk5YTg3MDFlOTY2ZmU2YzU5YTU4MTNhNDg4MTRhNTMwYzFiNTdlOTdhYzllYzg5YmVkYzljNWExY2U#/)
 
