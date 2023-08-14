@@ -1,0 +1,10 @@
+<template>
+    <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Pears</li>
+        <li>Passionfruit</li>
+        <li>Kiwis</li>
+        <li>Grapes</li>
+    </ul>
+</template>
