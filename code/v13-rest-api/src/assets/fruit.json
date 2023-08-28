@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bananas",
+    "description": "bananas are good",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bunch-of-bananas-67e91d5.jpg"
+  },
+  {
+    "name": "Apples",
+    "description": "apples are also good",
+    "image": "https://www.applesfromny.com/wp-content/uploads/2020/05/20Ounce_NYAS-Apples2.png"
+  },
+  {
+    "name": "Grapes",
+    "description": "Richard likes grapes",
+    "image": "/images/funny-grapes.jpg"
+  }
+]
