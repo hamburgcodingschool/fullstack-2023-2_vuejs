@@ -2,8 +2,8 @@
   <div>
     <h1>WELCOME TO THE HOMEPAGE</h1>
     <ul>
-      <li v-for="pokemon in pokemonList" :key="pokemon.url">
-        <RouterLink :to="`/details?name=${pokemon.name}`">{{ pokemon.name }}</RouterLink>
+      <li v-for="pokemon in this.pokemonList" :key="pokemon.url">
+        <a :href="`/details?name=${pokemon.name}`">{{ pokemon.name }}</a>
       </li>
     </ul>
   </div>
@@ -14,6 +14,11 @@ export default {
   data() {
     return {
       pokemonList: []
+    }
+  },
+  methods: {
+    myAwesomeMethod() {
+      console.log('Im awesome!!!')
     }
   },
   async created() {
