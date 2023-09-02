@@ -2,8 +2,8 @@
   <div>
     <h1>WELCOME TO THE HOMEPAGE</h1>
     <ul>
-      <li v-for="pokemon in this.pokemonList" :key="pokemon.url">
-        <a :href="`/details?name=${pokemon.name}`">{{ pokemon.name }}</a>
+      <li v-for="pokemon in this.pokemonList" :key="pokemon.id">
+        <a :href="`/details?name=${pokemon.id}`">{{ pokemon.name }}</a>
       </li>
     </ul>
   </div>
@@ -22,7 +22,7 @@ export default {
     }
   },
   async created() {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon')
+    const response = await fetch('http://localhost:3000/animals')
     const result = await response.json()
 
     this.pokemonList = result.results
