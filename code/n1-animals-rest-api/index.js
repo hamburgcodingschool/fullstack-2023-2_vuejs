@@ -3,7 +3,7 @@ const express = require("express") // CommonJS Syntax
 
 const cors = require("cors")
 
-const db = require("./db")
+// const db = require("./db")
 
 const app = express()
 
@@ -11,16 +11,24 @@ const port = 3000
 
 app.use(cors())
 
-app.get("/animals", async function(req, res) {
-    
-    const animalsList = await db.getAnimals()
-
-    res.json({
-        status: "OK",
-        count: animalsList.length,
-        results: animalsList
-    })
+app.get("/animals/:id", function(req, res) {
+    res.send("YOU DID IT")
 })
+
+app.delete("/animals/:id", function(req, res) {
+    res.send("YOU DID IT")
+})
+
+// app.get("/animals", async function(req, res) {
+    
+// //     const animalsList = await db.getAnimals()
+
+// //     res.json({
+// //         status: "OK",
+// //         count: animalsList.length,
+// //         results: animalsList
+// //     })
+// // })
 
 app.get("/animals/:id", async function(req, res) {
     

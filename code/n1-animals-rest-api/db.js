@@ -26,10 +26,16 @@ async function getAnimals() {
 }
 
 async function getAnimalById(id) {
-    const result = await connection.promise().query("SELECT * FROM animals WHERE id = " + id)
+    const sql = "SELECT * FROM animals WHERE id = " + id
+    console.log
+
+    const result = await connection.promise().query(sql)
 
     const rows = result[0]
     const animal = rows[0]
+
+
+    const x = 10
 
     return animal
 }
